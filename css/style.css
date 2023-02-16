@@ -125,3 +125,11 @@ body {
     .section-tools .wrapper .tool {
       text-align: center;
       max-width: 35rem; }
+
+.section-testimonials {
+  padding: 9.6rem 0; }
+  .section-testimonials .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem; }
