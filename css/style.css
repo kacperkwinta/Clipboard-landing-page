@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.8rem;
+  font-family: "Bai Jamjuree", sans-serif; }
+
+.main-heading {
+  font-size: 4.4rem;
+  color: #4c545d; }
+
+.paragraph {
+  line-height: 1.5;
+  color: #9fabb2; }
+
+.marg-btm-s {
+  margin-bottom: 2.4rem; }
+
+.marg-bottom-m {
+  margin-bottom: 4.8rem; }
+
+.btn, .btn:link, .btn:visited {
+  text-decoration: none;
+  padding: 1.4rem 3.2rem;
+  border-radius: 10rem;
+  color: #fff;
+  transition: all 0.3s ease;
+  letter-spacing: 1px; }
+
+.btn--green {
+  background-color: #26baa4;
+  box-shadow: rgba(38, 186, 164, 0.1) 0px 1px 0px, rgba(38, 186, 164, 0.1) 0px 8px 24px, rgba(38, 186, 164, 0.1) 0px 16px 48px; }
+  .btn--green:hover {
+    background-color: #2acfb7; }
+
+.btn--blue {
+  background-color: #6173ff;
+  box-shadow: rgba(97, 115, 255, 0.1) 0px 1px 0px, rgba(97, 115, 255, 0.1) 0px 8px 24px, rgba(97, 115, 255, 0.1) 0px 16px 48px; }
+  .btn--blue:hover {
+    background-color: #7a8aff; }
+
+.container-text {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 70rem; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+  .attribution a {
+    color: #3e52a3; }
+
+body {
+  background-image: url(../../images/bg-header-desktop.png);
+  background-position: top;
+  background-repeat: no-repeat no-repeat;
+  background-size: 100%; }
+
+.section-cta {
+  padding: 12.6rem 0 9.6rem 0;
+  margin: 0 auto; }
+  .section-cta .wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem; }

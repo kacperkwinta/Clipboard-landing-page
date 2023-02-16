@@ -1,0 +1,34 @@
+.btn {
+	&,
+	&:link,
+	&:visited {
+		text-decoration: none;
+		padding: 1.4rem 3.2rem;
+		border-radius: 10rem;
+		color: $color-white;
+		transition: all 0.3s ease;
+        letter-spacing: 1px;
+	}
+
+	&--green {
+		background-color: $color-primary-1;
+		box-shadow: rgba($color-primary-1, 0.1) 0px 1px 0px,
+			rgba($color-primary-1, 0.1) 0px 8px 24px,
+			rgba($color-primary-1, 0.1) 0px 16px 48px;
+
+		&:hover {
+			background-color: lighten($color-primary-1, 5);
+		}
+	}
+
+	&--blue {
+		background-color: $color-primary-2;
+		box-shadow: rgba($color-primary-2, 0.1) 0px 1px 0px,
+			rgba($color-primary-2, 0.1) 0px 8px 24px,
+			rgba($color-primary-2, 0.1) 0px 16px 48px;
+
+		&:hover {
+			background-color: lighten($color-primary-2, 5);
+		}
+	}
+}

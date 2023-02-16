@@ -1,0 +1,17 @@
+body {
+	background-image: url(../../images/bg-header-desktop.png);
+	background-position: top;
+	background-repeat: no-repeat no-repeat;
+	background-size: 100%;
+}
+
+.section-cta {
+	padding: 12.6rem 0 9.6rem 0;
+	margin: 0 auto;
+
+	.wrapper {
+		display: flex;
+		justify-content: center;
+		gap: 2.4rem;
+	}
+}
