@@ -1,6 +1,5 @@
 body {
 	background-image: url(../../images/bg-header-desktop.png);
-	background-position: top;
 	background-repeat: no-repeat no-repeat;
 	background-size: 100%;
 }
@@ -72,6 +71,7 @@ body {
 
 .section-testimonials {
 	padding: 9.6rem 0;
+	margin: 0 auto;
 
 	.wrapper {
 		display: flex;
@@ -81,6 +81,17 @@ body {
 
 		.testimonials-logo {
 		}
+	}
+}
+
+.section-download {
+	padding: 9.6rem 0 12.6rem 0;
+	margin: 0 auto;
+
+	.wrapper {
+		display: flex;
+		justify-content: center;
+		gap: 2.4rem;
 	}
 }
 

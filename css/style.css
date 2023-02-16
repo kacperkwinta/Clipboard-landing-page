@@ -75,9 +75,38 @@ body {
   .attribution a {
     color: #3e52a3; }
 
+.footer {
+  padding: 3.2rem;
+  background-color: #f4f5f6;
+  display: flex;
+  justify-content: space-around; }
+  .footer .wrapper-left {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .footer .wrapper-left .logo-footer {
+      width: 6.4rem;
+      margin-right: 12.6rem; }
+    .footer .wrapper-left .wrapper-links {
+      max-width: 40rem;
+      display: flex;
+      flex-wrap: wrap; }
+      .footer .wrapper-left .wrapper-links .footer-link {
+        text-decoration: none;
+        transition: all 0.3s ease;
+        margin: 1.2rem; }
+        .footer .wrapper-left .wrapper-links .footer-link:link, .footer .wrapper-left .wrapper-links .footer-link:visited {
+          color: #4c545d; }
+        .footer .wrapper-left .wrapper-links .footer-link:active, .footer .wrapper-left .wrapper-links .footer-link:hover {
+          color: #26baa4; }
+  .footer .wrapper-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8rem; }
+
 body {
   background-image: url(../../images/bg-header-desktop.png);
-  background-position: top;
   background-repeat: no-repeat no-repeat;
   background-size: 100%; }
 
@@ -127,9 +156,18 @@ body {
       max-width: 35rem; }
 
 .section-testimonials {
-  padding: 9.6rem 0; }
+  padding: 9.6rem 0;
+  margin: 0 auto; }
   .section-testimonials .wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8rem; }
+
+.section-download {
+  padding: 9.6rem 0 12.6rem 0;
+  margin: 0 auto; }
+  .section-download .wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem; }
