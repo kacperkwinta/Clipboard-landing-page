@@ -8,9 +8,24 @@ body {
 	color: $color-neutral-1;
 }
 
-.paragraph {
-	line-height: 1.5;
+.heading-secondary {
+	font-size: 3.6rem;
+	color: $color-neutral-1;
+}
+
+.heading-tertiary {
+	font-size: 2.6rem;
+	color: $color-neutral-1;
+}
+
+.paragraph,
+.paragraph--small {
+	line-height: 1.7;
 	color: $color-neutral-2;
+}
+
+.paragraph--small {
+	font-size: 1.6rem;
 }
 
 // FONT SIZE SYSTEM (px)
