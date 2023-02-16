@@ -95,11 +95,18 @@ body {
     justify-content: center;
     gap: 9.6rem; }
     .section-features .features__img {
-      display: block;
-      transform: translateX(-10rem); }
+      display: block; }
   .section-features .features-container {
     display: flex;
     flex-direction: column;
-    gap: 4.8rem; }
+    gap: 4.8rem;
+    margin-right: 4.8rem; }
     .section-features .features-container .features-item {
       max-width: 40rem; }
+
+.section-access {
+  padding: 9.6rem 0;
+  margin: 0 auto; }
+  .section-access__img {
+    display: block;
+    margin: 0 auto; }

@@ -28,7 +28,6 @@ body {
 
 		&__img {
 			display: block;
-			transform: translateX(-10rem);
 		}
 	}
 
@@ -36,10 +35,21 @@ body {
 		display: flex;
 		flex-direction: column;
 		gap: 4.8rem;
+		margin-right: 4.8rem;
 
 		.features-item {
 			max-width: 40rem;
 		}
+	}
+}
+
+.section-access {
+	padding: 9.6rem 0;
+	margin: 0 auto;
+
+	&__img {
+		display: block;
+		margin: 0 auto;
 	}
 }
 
