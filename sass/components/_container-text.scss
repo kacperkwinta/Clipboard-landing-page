@@ -1,5 +1,14 @@
 .container-text {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 70rem;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 70rem;
+}
+
+///////////////
+// BELOW 770 PX
+///////////////
+@media (max-width: 48.125em) {
+	.container-text {
+		padding: 0 2.4rem;
+	}
 }

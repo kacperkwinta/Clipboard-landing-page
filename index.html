@@ -4,12 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- FAVICON -->
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="./images/favicon-32x32.png"
-		/>
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/logo.svg" />
 		<!-- GOOGLE FONTS -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,8 +14,9 @@
 		/>
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/style.css" />
-		<title>Frontend Mentor | Clipboard landing page</title>
+		<title>Clipboard landing page</title>
 	</head>
+
 	<body>
 		<main>
 			<!----------------->
@@ -203,8 +199,23 @@
 			</section>
 		</main>
 
-		<footer class="footer">
+		<div class="container-text">
+			<p class="paragraph">
+				Challenge by &nbsp;
+				<a href="https://www.frontendmentor.io" class="author-link">
+					Frontend Mentor
+				</a>
+				<img src="images/favicon-32x32.png" alt="" />
+			</p>
+			<p class="paragraph marg-btm-m">
+				Coded with ❤️ by
+				<a href="https://github.com/kacperkwinta" class="author-link"
+					>Kacper Kwinta</a
+				>
+			</p>
+		</div>
 
+		<footer class="footer">
 			<div class="wrapper-left">
 				<img src="images/logo.svg" class="logo-footer" alt="" />
 
@@ -218,11 +229,10 @@
 			</div>
 
 			<div class="wrapper-right">
-				<img src="images/icon-facebook.svg" alt="" />
-				<img src="images/icon-twitter.svg" alt="" />
-				<img src="images/icon-instagram.svg" alt="" />
+				<ion-icon class="footer-social" name="logo-facebook"></ion-icon>
+				<ion-icon class="footer-social" name="logo-twitter"></ion-icon>
+				<ion-icon class="footer-social" name="logo-instagram"></ion-icon>
 			</div>
-      
 		</footer>
 
 		<!-- <div>
@@ -233,5 +243,15 @@
 				>. Coded by <a href="#">Your Name Here</a>.
 			</p>
 		</div> -->
+
+		<!-- SOCIAL ICONS - ionicons - https://ionic.io/ionicons -->
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
 	</body>
 </html>
