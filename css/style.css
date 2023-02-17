@@ -62,13 +62,13 @@ body {
 
 .btn--green {
   background-color: #26baa4;
-  box-shadow: rgba(38, 186, 164, 0.1) 0px 1px 0px, rgba(38, 186, 164, 0.1) 0px 8px 24px, rgba(38, 186, 164, 0.1) 0px 16px 48px; }
+  box-shadow: 0px 3px #22a591; }
   .btn--green:hover {
     background-color: #2acfb7; }
 
 .btn--blue {
   background-color: #6173ff;
-  box-shadow: rgba(97, 115, 255, 0.1) 0px 1px 0px, rgba(97, 115, 255, 0.1) 0px 8px 24px, rgba(97, 115, 255, 0.1) 0px 16px 48px; }
+  box-shadow: 0px 3px #475dff; }
   .btn--blue:hover {
     background-color: #7a8aff; }
 
@@ -148,7 +148,7 @@ body {
       gap: 2.4rem; } }
 
 body {
-  background-image: url(../../images/bg-header-desktop.png);
+  background-image: url(../images/bg-header-desktop.png);
   background-repeat: no-repeat no-repeat;
   background-size: 100%; }
 
