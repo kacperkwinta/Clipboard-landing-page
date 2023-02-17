@@ -264,6 +264,9 @@ body {
     transition: all 0.3s ease; }
   .container-text .paragraph:nth-child(1) .author-link:hover, .container-text .paragraph:nth-child(1) .author-link:active {
     color: #adb7ff; }
+  .container-text .paragraph:nth-child(1) .frontend-icon {
+    width: 2.2rem;
+    margin-left: 1rem; }
 
 .section-download {
   padding: 9.6rem 0 12.6rem 0;
